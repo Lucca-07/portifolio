@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-image: linear-gradient(black, #111, #222);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  flex-flow: row wrap;
+  max-width: 30%;
+  text-align: center;
+  border-radius: 50px;
+  height: 80vh
+}
+img {
+  border-radius: 100%;
+  margin: 2% 5%;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  margin:0;
+  margin-bottom: 20px;
+}
+li {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.card h1{
+    margin-bottom: 0;
+}
+
+.card p{
+    margin-top: 0;
+}
+
+
+.card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 93%;
+  margin-top: 10px;
+  padding: 5%;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-left: 0;
+  
+}
+
+.card a:hover{
+    background: #dedede7c;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
